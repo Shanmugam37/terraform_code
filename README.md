@@ -1,6 +1,7 @@
 # terraform_code
 
 ## i have written the code for (vpc,ec2,security_group,s3,load_balancer)
+
 module "vpc_basic" {
   source ="github.com/Shanmugam37/terraform_code.git"
 
@@ -9,6 +10,7 @@ module "vpc_basic" {
   cidr = "10.0.0.0/16"
   public_subnet = "10.0.1.0/24"
 }
+
 # AWS VPC module for Terraform
 
 A lightweight VPC module for Terraform.
